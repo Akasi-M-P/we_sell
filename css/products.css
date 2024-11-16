@@ -11,7 +11,7 @@
 
 .product {
     width: 80%;
-    height: 150px;
+    height: 180px;
     border: 1px solid rgb(177, 228, 182);
     border-radius: 4px;
     padding: 10px;
@@ -37,4 +37,32 @@
     font-optical-sizing: auto;
     font-weight: 500;
   
+}
+
+.product_price {
+    color: rgb(90, 199, 90);
+}
+
+.add_To_cart {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.add_To_cart button{
+    padding: 8px;
+    
+    outline: none;
+    background-color: rgb(90, 199, 90);
+    color: #fff;
+    border-style: hidden;
+    border-radius: 5px;
+
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+
+    &&:hover{
+        background-color: rgb(147, 196, 147);
+    }
 }
