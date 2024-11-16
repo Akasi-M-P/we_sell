@@ -1,0 +1,43 @@
+
+.cart {
+    background-color: #eff3f1;
+    margin-top: 5px;
+}
+
+
+.cartItem {
+    display: flex;
+    padding: 40px;
+}
+
+.cartItem_image img{
+   width: 100%;
+}
+
+.cartItem_details {
+    display: flex;
+    gap: 60px;
+}
+
+
+.cartItem_product_name_price {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.cartItem_quantity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.cartItem_product_price {
+    color: rgb(90, 199, 90);
+}
