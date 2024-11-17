@@ -1,0 +1,69 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "apple",
+          "price": 7.99,
+          "image": { "fields": { "file": { "url": "./images/apple.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "watermelon",
+          "price": 1.99,
+          "image": { "fields": { "file": { "url": "./images/watermelon.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "guava",
+          "price": 1.99,
+          "image": { "fields": { "file": { "url": "./images/guava.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "avocado",
+          "price": 2.99,
+          "image": { "fields": { "file": { "url": "./images/avocado.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "grapes",
+          "price": 8.99,
+          "image": { "fields": { "file": { "url": "./images/grapes.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "mango",
+          "price": 3.99,
+          "image": { "fields": { "file": { "url": "./images/mango.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "orange",
+          "price": 4.99,
+          "image": { "fields": { "file": { "url": "./images/orange.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "bananas",
+          "price": 3.99,
+          "image": { "fields": { "file": { "url": "./images/bananas.png" } } }
+        }
+      }
+    ]
+  }
+  
