@@ -3,80 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>weSell</title>
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/9da87e2b4e.js" crossorigin="anonymous"></script>
+     <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/9da87e2b4e.js" crossorigin="anonymous"></script>
     
-    <!-- google fonts -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-        </style>
-    
-    
-    <!-- css custom -->
+     <!-- google fonts -->
+     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+         </style>
+     
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="navbar-center">
-            <span class="nav-icon">
-                weSell
-            </span>
-            <input type="text" id="search" placeholder="Search for products...">
-            <div class="cart-btn">
-                <span class="nav-icon">
-                    <i class="fas fa-cart-plus"></i>
-                </span>
-                <div class="cart-items">0</div>
-            </div>
-        </div>
-    </nav>
-    <!-- End of Navbar -->
+    <header>
+        <h1>weSell</h1>
 
-    <!-- Hero -->
-   <header class="hero">
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search for products" aria-label="Search products">
+        </div>
+        <div class="cart-container">
+            <button id="cart-button" aria-label="View Cart">
+                 <i class="fas fa-cart-plus fa-xl"></i><span id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+         <!-- Hero -->
+   <div class="hero">
     <div class="banner">
         <h1 class="banner-title">enjoy a healthier, happier lifestyle</h1>
         <button class="banner-btn">shop now</button>
        
     </div>
-   </header>
+</div>
     <!-- End of Hero -->
 
-    <!-- Products -->
-    <section class="products">
-        <div class="products-center">
-            <!-- Single Product -->
-            <!-- End of Single Product -->
-        </div>
-    </section>
-    <!-- End of Products -->
-
-    <!-- cart -->
-    <div class="cart-overlay">
-        <div class="cart">
-            <span class="close-cart">
-                <i class="fas fa-window-close"></i>
-            </span>
-            <h2>your cart</h2>
-            <div class="cart-content">
-                <!-- cart-item -->
+        <section id="product-list" class="product-list">
+            <!-- Products will be dynamically injected here -->
             
-                 <!-- End of Cart -->
+        </section>
+
+        <!-- Product Detail Modal -->
+        <div id="product-detail-modal" class="cart-modal">
+            <div class="cart-modal-content">
+                <h2 id="detail-title"></h2>
+                <img id="detail-image" alt="Product Image">
+                <p id="detail-description"></p>
+                <p class="price">Price: $<span id="detail-price"></span></p>
+                <button id="add-to-cart-button">Add to Cart</button>
+                <button id="close-detail">Close</button>
             </div>
-               <div class="cart-footer">
-                <h3>total : <span class="cart-total">$ 0</span></h3>
-                <button class="clear-cart banner-btn">clear cart</button>
-               </div>
         </div>
 
-    </div>
+        <!-- Cart Modal -->
+        <div id="cart-modal" class="cart-modal">
+            <div class="cart-modal-content">
+                <h2>Your Cart</h2>
+                <ul id="cart-items"></ul>
+                <div class="cart-summary">
+                    <span>Total: $<span id="total-price">0</span></span>
+                    <button id="checkout-button">Checkout</button>
+                    <button id="close-cart">Close</button>
+                </div>
+            </div>
+        </div>
+    </main>
 
+      <!-- FOOTER STARTS -->
 
-    <!-- FOOTER STARTS -->
-
-    <footer>
+      <footer>
         <section class="footer">
           <div class="left_footer">
             <div><p>About Us</p>
@@ -112,10 +110,6 @@
 
       <!-- FOOTER ENDS -->
 
-    <!-- Contentful CMS -->
-    <script src="https://cdn.jsdelivr.net/npm/contentful@9.0.1/dist/contentful.browser.min.js"></script>
-    
-    <!-- app.js -->
-    <script src="main.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

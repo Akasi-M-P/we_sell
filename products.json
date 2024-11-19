@@ -1,69 +1,51 @@
-{
-    "items": [
-      {
-        "sys": { "id": "1" },
-        "fields": {
-          "title": "apple",
-          "price": 7.99,
-          "image": { "fields": { "file": { "url": "./images/apple.png" } } }
-        }
-      },
-      {
-        "sys": { "id": "2" },
-        "fields": {
-          "title": "watermelon",
-          "price": 1.99,
-          "image": { "fields": { "file": { "url": "./images/watermelon.png" } } }
-        }
-      },
-      {
-        "sys": { "id": "3" },
-        "fields": {
-          "title": "guava",
-          "price": 1.99,
-          "image": { "fields": { "file": { "url": "./images/guava.png" } } }
-        }
-      },
-      {
-        "sys": { "id": "4" },
-        "fields": {
-          "title": "avocado",
-          "price": 2.99,
-          "image": { "fields": { "file": { "url": "./images/avocado.png" } } }
-        }
-      },
-      {
-        "sys": { "id": "5" },
-        "fields": {
-          "title": "grapes",
-          "price": 8.99,
-          "image": { "fields": { "file": { "url": "./images/grapes.png" } } }
-        }
-      },
-      {
-        "sys": { "id": "6" },
-        "fields": {
-          "title": "mango",
-          "price": 3.99,
-          "image": { "fields": { "file": { "url": "./images/mango.png" } } }
-        }
-      },
-      {
-        "sys": { "id": "7" },
-        "fields": {
-          "title": "orange",
-          "price": 4.99,
-          "image": { "fields": { "file": { "url": "./images/orange.png" } } }
-        }
-      },
-      {
-        "sys": { "id": "8" },
-        "fields": {
-          "title": "bananas",
-          "price": 3.99,
-          "image": { "fields": { "file": { "url": "./images/bananas.png" } } }
-        }
-      }
-    ]
-  }
-  
+[
+    {
+        "id": 1,
+        "name":" LD01 LOUNGE CHAIR",
+        "price": 200,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" LD02 LOUNGE CHAIR",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" LD03 LOUNGE CHAIR",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" LD04 LOUNGE CHAIR",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" LD05 LOUNGE CHAIR",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" LD06 LOUNGE CHAIR",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "image/8.png"
+    }
+
+]
